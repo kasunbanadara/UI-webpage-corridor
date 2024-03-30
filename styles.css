@@ -1,0 +1,67 @@
+.h2{
+	text-align:center;
+	padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 20px;
+  height:250px; 
+}
+
+.column{
+    width: 50%;
+	border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  margin-right: 50px;
+  margin-left: 50px;
+  background-color: lightblue;
+  text-align-last: left-side; 
+ 	
+	
+  }
+  
+ .column1 {
+  flex: 25%;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 20px;
+  height: 100px; /* Should be removed. Only for demonstration */
+  
+} 
+  
+body {
+  height: 100%;
+  margin: 0px;
+}  
+  
+  
+ div {
+
+ 
+}
+.button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: black;
+  padding: 5px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+
